@@ -123,6 +123,7 @@ class StanfordParser(StanfordCoreNLP):
         self.__buildcmd()
 
     def __buildcmd(self):
+        """构建命令行"""
         self.cmdline = 'java -mx500m -cp "'+self.jarpath+'" '+self.classifier+'-outputFormat "'+self.opttype+'" '+self.modelpath+' '
 
     # 解析句子
