@@ -96,16 +96,3 @@ for role in roles:
         else:
             print(arg.name,wordlist[arg.range.start])
 
-
-
-
-
-
-
-
-
-
-
-
-
-
